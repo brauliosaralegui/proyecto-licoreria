@@ -2,6 +2,10 @@
 import { collection, getDocs,getFirestore } from "firebase/firestore"
 import { useEffect } from "react"
 import Producto from "./Producto"
+import Blancas from "./Blancas"
+import Cervezas from "./Cervezas"
+import Whisky from "./Whisky"
+import ListadoItems from "./ListadoItems"
 
 function Principal() {
 
@@ -17,7 +21,10 @@ function Principal() {
     <div>
 
         <h2>Principal</h2>
-        <Producto/>
+
+        <ListadoItems/>
+
+
     </div>
 
 

@@ -3,7 +3,7 @@
 function Producto() {
   return (
     <div>
-        <h2>Productos</h2>
+        <h2>Producto</h2>
         <div className="card" style={{width: '18rem'}}>
           <img className="card-img-top" src="vodka_smirnoff.jpeg" alt="corona" />
           <div className="card-body">

@@ -7,6 +7,7 @@ import Navegacion from './components/Navegacion'
 import Principal from './components/Principal'
 import Footer from './components/Footer'
 import ListadoItems from './components/ListadoItems'
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NoPage from './components/NoPage'
 
@@ -21,9 +22,8 @@ function App() {
 
       <Header/>
       <Navegacion/>
-      <Principal/>
       <ListadoItems/>
-      <Footer/>
+
     </>
   )
 }
